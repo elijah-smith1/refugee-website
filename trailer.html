@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>I Take Refuge - Trailer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Include Google Fonts if not already included -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header id="navbar">
+        <nav>
+            <div class="logo">
+                <a href="index.html">I Take Refuge</a>
+            </div>
+            <div class="nav-toggle" onclick="toggleMenu();">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trailer.html" class="active">Trailer</a></li>
+                <li><a href="take-action.html">Take Action</a></li>
+                <li><a href="cast-crew.html">Cast & Crew</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Trailer Section -->
+    <section class="trailer-section">
+        <div class="container">
+            <h1>Official Trailer</h1>
+            <p class="intro">
+                Experience a glimpse into the powerful stories of resilience and hope. Watch the official trailer for <em>I Take Refuge</em>.
+            </p>
+
+            <!-- Video Embed -->
+            <div class="video-wrapper">
+                <video controls poster="images/trailer-poster.jpg">
+                    <source src="videos/trailer.mp4" type="video/mp4">
+                    <source src="videos/trailer.webm" type="video/webm">
+                    Your browser does not support the video tag. Please download the video <a href="videos/trailer.mp4">here</a>.
+                </video>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="trailer-cta">
+                <p>Moved by what you saw? Learn how you can <a href="take-action.html">Take Action</a> and support the cause.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Footer content as before -->
+        <div class="newsletter">
+            <h3>Join Our Mailing List</h3>
+            <form action="#" method="post">
+                <input type="email" name="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <div class="footer-nav">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms-of-use.html">Terms of Use</a>
+        </div>
+        <p>&copy; 2023 I Take Refuge Documentary</p>
+    </footer>
+
+    <!-- Include JavaScript files -->
+    <script src="js/main.js"></script>
+</body>
+</html>
